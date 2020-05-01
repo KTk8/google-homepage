@@ -6,6 +6,12 @@ a:link {
     text-decoration: none;
 }
 
+/* don't need this if using eric-meyer-css-reset.css
+ul {
+    list-style: none;
+}
+*/
+
 li {
     float: left;
 }
@@ -23,12 +29,26 @@ a.header-link {
 footer {
     position: fixed;
     bottom: 0;
-    height: 50px;
+    /* this is the width at which the real google.com stops shrinking */
+    /* width: 980px; */
+    height: 42px;
+    line-height: 42px;
     background-color: rgb(242, 242, 242);
     font-size: 14px;
+    padding: 0px 0px 0px 18px;
+    /* borders, for testing purposes */
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    
 }
 
 a.footer-link {
     color: rgb(95, 99, 104);
-    padding: 14px;
+    padding: 0px 14px 0px 14px;
+    /* borders, for testing purposes */
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    
 }
