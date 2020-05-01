@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    background-color: plum;
+}
+
+li {
+    background-color: rgb(170, 231, 233);
+}
+
+.zero {
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+}
+
+.one {
+    padding: 1px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 1px;
+}
+
+.two {
+    padding: 2px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 2px;
+}
+
+.three {
+    padding: 3px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 3px;
+}
+
+.four {
+    padding: 4px;
+    border-style: solid;
+    border-width: 4px;
+    margin: 4px;
+}
+
+.five {
+    padding: 5px;
+    border-style: solid;
+    border-width: 5px;
+    margin: 5px;
+}
+
+.six {
+    padding: 6px;
+    border-style: solid;
+    border-width: 6px;
+    margin: 6px;
+}
+
+.seven {
+    padding: 7px;
+    border-style: solid;
+    border-width: 7px;
+    margin: 7px;
+}
+
+.eight {
+    padding: 8px;
+    border-style: solid;
+    border-width: 8px;
+    margin: 8px;
+}
+
+.nine {
+    padding: 9px;
+    border-style: solid;
+    border-width: 9px;
+    margin: 9px;
+}
+
+.ten {
+    padding: 10px;
+    border-style: solid;
+    border-width: 10px;
+    margin: 10px;
+}
