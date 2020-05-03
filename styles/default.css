@@ -30,8 +30,9 @@ footer {
     position: fixed;
     bottom: 0;
     /* 980px is the width at which the real google.com stops shrinking */
-    min-width: 980px;
+    width: 100%;
     max-width: 100%;
+    min-width: 980px;
     height: 42px;
     line-height: 42px;
     background-color: rgb(242, 242, 242);
