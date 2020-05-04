@@ -30,6 +30,36 @@ a.header-link {
     padding: 9px;
 }
 
+.right-float {
+    float: right;
+}
+
+#google-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-box {
+    margin: auto;
+    width: 200px;
+    /* borders for testing purposes
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    */
+}
+
+#search-buttons {
+    margin: auto;
+    width: 220px;
+    /* borders for testing purposes
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    */
+}
+
 footer {
     position: fixed;
     bottom: 0;

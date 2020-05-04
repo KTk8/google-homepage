@@ -14,22 +14,24 @@
                     <li><a class="header-link" href="https://about.google.com">About</a></li>
                     <li><a class="header-link" href="https://store.google.com">Store</a></li>
                     <!--the next 4 list items are in reverse order so that when they float right, they appear in the correct order.-->
-                    <li style="float:right;"><a class="header-link" href="https://myaccount.google.com">Sign In</a></li>
-                    <li style="float:right;"><a class="header-link" href="https://about.google/intl/en/products/?tab=wh&tip=explore">
+                    <li class="right-float"><a class="header-link" href="https://myaccount.google.com">Sign In</a></li>
+                    <li class="right-float"><a class="header-link" href="https://about.google/intl/en/products/?tab=wh&tip=explore">
                         <img src="images/google-apps-icon-34x34.png" alt="icon for google apps" style="width:16px;height:16px;">
                         </a>
                     </li>
-                    <li style="float:right;"><a class="header-link" href="https://images.google.com">Images</a></li>
-                    <li style="float:right;"><a class="header-link" href="https://gmail.google.com">Gmail</a></li>
+                    <li class="right-float"><a class="header-link" href="https://images.google.com">Images</a></li>
+                    <li class="right-float"><a class="header-link" href="https://gmail.google.com">Gmail</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <img style="display:block; margin-left:auto; margin-right:auto;" src="images/googlelogo_color_272x92dp.png" alt="Google logo">
+            <img id="google-logo" src="images/googlelogo_color_272x92dp.png" alt="Google logo">
             <form action="/submit-search-term">
-                <img src="images/magnifying-glass-icon-31x31.png" alt="magnifying glass icon" style="width:20px;height:20px;">
-                <input type="text">
-                <div>
+                <div id="search-box">
+                    <img src="images/magnifying-glass-icon-31x31.png" alt="magnifying glass icon" style="width:20px;height:20px;">
+                    <input type="text">
+                </div>
+                <div id="search-buttons">
                     <button type="submit">Google Search</button>
                     <button type="submit">I'm Feeling Lucky</button>
                 </div>
@@ -42,9 +44,9 @@
                 <li><a class="footer-link" href="https://smallbusiness.withgoogle.com">Business</a></li>
                 <li><a class="footer-link" href="https://google.com/search/howsearchworks">How Search works</a></li>
                 <!--the next 4 list items are in reverse order so that when they float right, they appear in the correct order.-->
-                <li style="float:right;"><a class="footer-link" href="https://google.com/preferences">Settings</a></li>
-                <li style="float:right;"><a class="footer-link" href="https://policies.google.com/terms">Terms</a></li>
-                <li style="float:right;"><a class="footer-link" href="https://policies.google.com/privacy">Privacy</a></li>
+                <li class="right-float"><a class="footer-link" href="https://google.com/preferences">Settings</a></li>
+                <li class="right-float"><a class="footer-link" href="https://policies.google.com/terms">Terms</a></li>
+                <li class="right-float"><a class="footer-link" href="https://policies.google.com/privacy">Privacy</a></li>
             </ul>
         </footer>
     </body>
