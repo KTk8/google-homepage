@@ -23,11 +23,22 @@ li {
 header {
     font-size: 13px;
     padding: 15px;
+    margin-top: 10px;
+    /* borders for testing purposes 
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    */
 }
 
 a.header-link {
     color: rgb(65, 65, 65);
     padding: 9px;
+    /* borders for testing purposes 
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    */
 }
 
 .right-float {
@@ -36,13 +47,18 @@ a.header-link {
 
 #google-logo {
     display: block;
+    width: 272px;
+    height: 92px;
+    padding-top: 109px;
+    padding-bottom: 32px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #search-box {
     margin: auto;
-    width: 200px;
+    width: 427px;
+    height: 34px;
     /* borders for testing purposes
     border: 2px;
     border-style: solid;
@@ -52,7 +68,7 @@ a.header-link {
 
 #search-buttons {
     margin: auto;
-    width: 220px;
+    width: 272px;
     /* borders for testing purposes
     border: 2px;
     border-style: solid;
