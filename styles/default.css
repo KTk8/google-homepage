@@ -6,6 +6,10 @@ a:link {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /* don't need this if using eric-meyer-css-reset.css
 ul {
     list-style: none;
@@ -46,6 +50,7 @@ footer {
 
 #footer-menu {
     padding: 0px 15px 0px 15px;
+
 }
 
 a.footer-link {
