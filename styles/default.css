@@ -45,6 +45,30 @@ a.header-link {
     float: right;
 }
 
+#sign-in-button {
+    background-color: rgb(72, 136, 240);
+    border-radius: 6%;
+    color: white;
+    font-weight: bold;
+    padding: 9px 4px 9px 4px;
+    margin: -8px 11px 0px 11px;
+    /* borders for testing purposes
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+     */
+}
+
+#sign-in-text {
+    color: white;
+    font-weight: bold;
+    /* borders for testing purposes
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+     */
+}
+
 #google-logo {
     display: block;
     width: 272px;
