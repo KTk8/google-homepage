@@ -10,12 +10,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* don't need this if using eric-meyer-css-reset.css
-ul {
-    list-style: none;
-}
-*/
-
 li {
     float: left;
 }
@@ -119,8 +113,8 @@ input[type=text]:focus {
 }
 
 #search-buttons {
-    margin: 0px auto;
-    width: 272px;
+    margin: 30px auto;
+    width: 302px;
     /* borders for testing purposes
     border: 2px;
     border-style: solid;
@@ -128,12 +122,31 @@ input[type=text]:focus {
     */
 }
 
+button {
+    height: 35px;
+    font-size: 14px;
+    color: rgb(95, 99, 104);
+    background-color: rgb(242, 242, 242);
+    border: none;
+    border-radius: 3px;
+    padding: 0px 18px;
+    margin: 0px 4px;
+}
+
+button:hover {
+    color: black;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(175, 174, 174);
+    box-shadow: 0px 1px 1px rgb(201, 200, 200);
+}
+
 footer {
     position: fixed;
     bottom: 0;
-    /* 980px is the width at which the real google.com stops shrinking */
     width: 100%;
     max-width: 100%;
+    /* 980px is the width at which the real google.com stops shrinking */
     min-width: 980px;
     height: 42px;
     line-height: 42px;
