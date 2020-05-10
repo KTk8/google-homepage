@@ -84,6 +84,10 @@ a.header-link {
     border-color: rgb(223, 225, 229);
 }
 
+#search-box:hover {
+    box-shadow: 0px 1px 6px 0px rgb(209, 208, 208);
+}
+
 input[type=text] {
     width: 356px;
     height: 34px;
